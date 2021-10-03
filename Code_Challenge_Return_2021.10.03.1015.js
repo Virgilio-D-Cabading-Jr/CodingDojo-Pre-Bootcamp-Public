@@ -131,3 +131,13 @@ console.log("***********************************"); // Tenth Code Snippet
 console.log("Tenth Code Snippet");
 console.log("");
 
+function sumNums(num1, num2) {               // Created sumNums function
+    var sum = num1 + num2;                   // that gets the sum of two input vars
+    console.log('sum is', sum);
+    return sum;
+}
+
+var result = sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(sumNums(2,1),sumNums(2,3));
+                                             // Result = 5 + 6 + 8 = 19
+console.log('result is', result);            // Prints the result is 19 to console
+console.log("");
