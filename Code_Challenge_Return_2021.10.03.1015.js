@@ -27,3 +27,17 @@ function hello() { // Creates function hello()
 var result = hello(); // Prints hello to console then assigns the number 15 to result variable
 console.log('result is', result); // Prints "result is 15" to console
 
+console.log("***********************************"); // Third Code Snippet
+console.log("Third Code Snippet");
+console.log("");
+
+function numPlus(num) { // Creates function numPlus
+    console.log('num is', num); // Prints "num is" <num> to console
+    return num+15; // returns num + 15
+}
+
+var result = numPlus(3); // num: 3, result: 18
+console.log('result is', result); // Printes Result is 18 to console
+console.log("");
+
+
