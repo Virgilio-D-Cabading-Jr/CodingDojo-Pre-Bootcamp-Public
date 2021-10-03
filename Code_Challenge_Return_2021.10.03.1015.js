@@ -101,4 +101,33 @@ function sumNums(num1, num2) {       // Creates sumNums function
  console.log(sumNums(3,5))           // prints 8 to console
  console.log("");
 
+ console.log("***********************************"); // Eight Code Snippet
+console.log("Eight Code Snippet");
+console.log("");
  
+function printSumNums(num1, num2) {   // Creates printSumNums function that
+    console.log(num1);                //    1. prints the value of num1 to console
+    return num1+num2;                 //    2. gives the sum of num1 and num2
+ }
+
+ console.log(printSumNums(2,3))       // num1: 2    num2: 3     returns: 5
+ console.log(printSumNums(3,5))       // num1: 3    NUM2: 5     returns: 8
+ console.log("");
+
+ console.log("***********************************"); // Ninth Code Snippet
+ console.log("Ninth Code Snippet");
+ console.log("");
+ 
+ function sumNums(num1, num2) {       // created sumNums function
+    var sum = num1 + num2;
+    console.log('sum is', sum);
+    return sum;
+}
+var result = sumNums(2,3) + sumNums(3,5);    // result = 5 + 8 = 13
+console.log('result is', result);
+console.log("");
+
+console.log("***********************************"); // Tenth Code Snippet
+console.log("Tenth Code Snippet");
+console.log("");
+
