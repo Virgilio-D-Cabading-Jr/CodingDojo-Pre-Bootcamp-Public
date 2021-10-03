@@ -59,5 +59,20 @@ console.log(result); // Prints 10 to console
 console.log(num); // Prints 15 to console
 console.log("");
 
+console.log("***********************************"); // Fifth Code Snippet
+console.log("Fifth Code Snippet");
+console.log("");
 
+var num = 15;              // num: 15
+console.log(num);          // Prints 15 to the console
+
+function timesTwo(num2){   // creates the function timesTwo
+   console.log(num2);      // prints the value of num2 to console 
+   return num2*2;          // returns the vaue of (num2 times 2) 
+}
+var result = timesTwo(10); // num2: 10   result: 20
+                           // prints 10 to console
+console.log(result);       // prints 20 to console  
+console.log(num);          // prints 15 to console
+console.log("");
 
