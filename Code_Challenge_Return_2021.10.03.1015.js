@@ -40,4 +40,24 @@ var result = numPlus(3); // num: 3, result: 18
 console.log('result is', result); // Printes Result is 18 to console
 console.log("");
 
+console.log("***********************************"); // Fourth Code Snippet
+console.log("Fourth Code Snippet");
+console.log("");
+
+var num = 15; // num: 15
+console.log(num); // Prints 15 to console
+
+function logAndReturn(num2){ // Creates logAndReturn function
+   console.log(num2); // Prints the value of num2 to console
+   return num2; // returns the value of num2
+}
+
+var result = logAndReturn(10); // num2: 10   result: 10    
+                               // also Prints 10 to console
+
+console.log(result); // Prints 10 to console
+console.log(num); // Prints 15 to console
+console.log("");
+
+
 
