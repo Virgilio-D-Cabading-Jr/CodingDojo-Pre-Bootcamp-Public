@@ -76,3 +76,29 @@ console.log(result);       // prints 20 to console
 console.log(num);          // prints 15 to console
 console.log("");
 
+console.log("***********************************"); // Sixth Code Snippet
+console.log("Sixth Code Snippet");
+console.log("");
+
+function timesTwoAgain(num) {        // Created timesTwoAgain function
+    console.log('num is', num);      // Prnts num is <num> to the console
+    var y = num*2;                   // y is twice the value of num
+    return y;
+}
+var result = timesTwoAgain(3) + timesTwoAgain(5); // result = 6 + 10 = 16
+console.log('result is', result);    // Prints result is 16 to console
+console.log("");
+
+console.log("***********************************"); // Seventh Code Snippet
+console.log("Seventh Code Snippet");
+console.log("");
+
+function sumNums(num1, num2) {       // Creates sumNums function
+    return num1+num2;                // gets the sum of num1 and num2
+ }
+
+ console.log(sumNums(2,3))           // prints 5 to console
+ console.log(sumNums(3,5))           // prints 8 to console
+ console.log("");
+
+ 
