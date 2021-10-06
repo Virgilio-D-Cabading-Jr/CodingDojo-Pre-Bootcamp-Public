@@ -44,3 +44,20 @@ function writeIfChildIsAbleToRideRollercoaster(childHeight)
         return "Sorry kiddo, maybe next year.";
     }
 }
+
+///////////////////////////////////////////////////////
+// Main section
+
+childHeight = 66;
+console.log("************************************");
+console.log("If the child's height is", childHeight);
+console.log("then the ride attendant should say: " + writeIfChildIsAbleToRideRollercoaster(childHeight));
+console.log("************************************");
+console.log("");
+
+childHeight = 52;
+console.log("************************************");
+console.log("If the child's height is", childHeight);
+console.log("then the ride attendant should say: " + writeIfChildIsAbleToRideRollercoaster(childHeight));
+console.log("************************************");
+console.log("");
