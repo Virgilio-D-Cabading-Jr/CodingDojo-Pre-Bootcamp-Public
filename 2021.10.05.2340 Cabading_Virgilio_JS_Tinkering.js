@@ -10,3 +10,24 @@
 // it can display whether the child is tall enough to ride
 // the roller coaster.  We are tasked with building the
 // function that will display the right message to the child
+
+////////////////////////////////////////////
+// Variables
+
+var childHeight = 56;
+
+////////////////////////////////////////////
+// Functions
+
+// Function to determine if the child is able to ride the roller coaster
+function ifChildIaAbleToRideTheRollerCoaster(childHeight)
+{
+    if childHeight > 52
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
