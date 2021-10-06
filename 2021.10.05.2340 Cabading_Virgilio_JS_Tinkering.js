@@ -5,3 +5,8 @@
 // Created October 05, 2021
 ///////////////////////////////////////////
 
+// The Story
+// We want an app that once it measures a kid's height, 
+// it can display whether the child is tall enough to ride
+// the roller coaster.  We are tasked with building the
+// function that will display the right message to the child
