@@ -32,15 +32,15 @@ function ifChildIaAbleToRideTheRollerCoaster(childHeight)
     }
 }
 
-// Function that writes if the child is able to ride on the roller coaster
+// Function that says if the child is able to ride on the roller coaster
 function writeIfChildIsAbleToRideRollercoaster(childHeight)
 {
     if (ifChildIaAbleToRideTheRollerCoaster(childHeight))
     {
-        console.log("Get on that ride kiddo!");
+        return "Get on that ride kiddo!";
     } 
     else
     {
-        console.log("Sorry kiddo, maybe next year.")
+        return "Sorry kiddo, maybe next year.";
     }
 }
